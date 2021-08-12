@@ -51,27 +51,19 @@ footer .logos-2 {
     width: 100%;
 }
 
-.important-links ul {
-    list-style: inside '>> ' !important;
-    padding: 0 !important;
-}
-
-.important-links ul li {
-    padding-right: 15px;
-}
-
-.important-links ul a {
+.important-links a:nth-child(n+2) {
     color: black !important;
-    font-weight: 600 !important;
+    padding: 0 10px;
+    font-weight: 600;
+    line-height: 24pt;
 }
 
-.important-links ul a:hover {
+.important-links a:hover {
     color: #782121 !important;
 }
 
-.contact-info {
-    background-color: #782121;
-    color: white;
+.contact-info, .contact-info a {
+    color: black !important;
     text-align: center;
 }
 
@@ -83,6 +75,6 @@ footer .logos-2 {
     padding: 0 10px;
 }
 
-.contact-info > span:nth-child(n+2) {
+.contact-info > span:nth-child(n+3) {
     border-left: white solid 1px;
 }
