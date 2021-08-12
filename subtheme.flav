@@ -7,7 +7,7 @@
 
 name        = Style DEMUL 
 description = DEMUL_UFOP styled subtheme
-module      = hwpi_classic
+module      = hwpi_onepage
 screenshot  = screenshot.png
 
 ;----------// Stylesheets
