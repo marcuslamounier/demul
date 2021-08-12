@@ -8,30 +8,31 @@
 
 .open-submenu::after {
     color: white;
-}/*qui*/
-
+}
 
 ul.nice-menu li.menuparent ul li, ul.nice-menu ul li {
     background-color: #FF5A5F !important;
     width: 100%;
 }
 
-ul.nice-menu li.menuparent ul li:active, ul.nice-menu li.menuparent ul li:hover {
-    background-color: white !important;
-    color: black !important;
-}
-
-ul.nice-menu li.menuparent ul li:active {
-    font-weight: 600 !important;
-}
-
-ul.nice-menu li.menuparent ul li:hover {
+ul.nice-menu li.menuparent, ul.nice-menu li.menuparent ul li:hover {
     background-color: #782121 !important;
 }
 
-ul.nice-menu li.menuparent ul li a {
+ul.nice-menu li a {
     color: black !important;
+}
+
+ul.nice-menu li.menuparent ul li a {
     text-transform: inherit !important;
     font-size: 12px !important;
+    font-weight: 600 !important;
+}
+
+ul.nice-menu li {
+    background-color: white !important;
+}
+
+ul.nice-menu li a:active {
     font-weight: 600 !important;
 }
