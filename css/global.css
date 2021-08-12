@@ -1,0 +1,37 @@
+.bolder {
+    font-weight: 600;
+}
+
+h2.block-title {
+    font-size: xx-large;
+    font-weight: 600;
+}
+
+article.node-news {
+    border-bottom: solid 2px #772121 !important;
+}
+
+article.node-news .node-title {
+    text-align: center;
+    font-weight: 600;
+    font-size: large;
+}
+
+article.node-news .node-content > * {
+    padding: 5px 0;
+}
+
+a.node-readmore {
+    text-align: right;
+    display: block;
+    font-size: medium !important;
+}
+
+.field-name-field-news-date {
+    text-align: right;
+}
+
+span.date-display-single {
+    color: black;
+    font-style: italic;
+}

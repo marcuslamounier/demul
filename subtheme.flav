@@ -12,10 +12,13 @@ screenshot  = screenshot.png
 
 ;----------// Stylesheets
 
+css[] = css/global.css
 css[] = css/header.css
 css[] = css/slideshow.css
 css[] = css/menu.css
 css[] = css/footer.css
-css[] = css/mainLinks.css
-scripts[] = js/subtheme.js
+css[] = css/fastLinks.css
+
+;----------// Scripts
+;scripts[] = js/subtheme.js
 
