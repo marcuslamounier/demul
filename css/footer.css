@@ -62,7 +62,7 @@ footer .logos-2 {
 
 .important-links ul a {
     color: black !important;
-    font-weight: 500 !important;
+    font-weight: 600 !important;
 }
 
 .important-links ul a:hover {
@@ -71,15 +71,18 @@ footer .logos-2 {
 
 .contact-info {
     background-color: #782121;
-    border-radius: 5px;
-    padding: 5px 0;
+    color: white;
+    text-align: center;
 }
 
-.contact-info > span:first-child {
-    display: none;
+.bolder {
+    font-weight: 600;
+}
+
+.contact-info > span {
+    padding: 0 10px;
 }
 
 .contact-info > span:nth-child(n+2) {
-    padding: 0 10px;
     border-left: white solid 1px;
 }
