@@ -7,11 +7,26 @@
 	background-color: white !important;
 	color: black !important;
 	padding: 10px 20px;
+	width: 100%;
+}
+
+.header-panel-logo {
+	align-content: center;
+    padding: 10px;
+}
+
+.header-panel-info {
+	text-align: center;
+    width: -webkit-fill-available;
 }
 
 header .img-logo {
 	max-height: 120px;
 	max-width: 250px;
+}
+
+header div {
+	align-self: center;
 }
 
 /* @media screen {
