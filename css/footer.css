@@ -1,0 +1,18 @@
+#footer {
+    background-color: #CECECE;
+    border-top: #782121 solid 10px;
+    color: black;
+}
+
+footer .img-logo {
+	max-height: 120px;
+	max-width: 250px !important;
+}
+
+footer .logos-1 {
+    border-right: 1px solid black;
+}
+
+footer .logos-2 {
+    border-left: 1px solid black;
+}

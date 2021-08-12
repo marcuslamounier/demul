@@ -2,6 +2,10 @@
     background-color: #782121;
 }
 
+#menu-bar {
+    padding: 10px 0;
+}
+
 .open-submenu {
     background: none;
 }
