@@ -52,7 +52,8 @@ footer .logos-2 {
 }
 
 .important-links ul {
-    list-style: inside '>> ';
+    list-style: inside '>> ' !important;
+    padding: 0 !important;
 }
 
 .important-links ul li {
@@ -60,10 +61,25 @@ footer .logos-2 {
 }
 
 .important-links ul a {
-    color: black;
-    font-weight: 500;
+    color: black !important;
+    font-weight: 500 !important;
 }
 
 .important-links ul a:hover {
-    color: #782121;
+    color: #782121 !important;
+}
+
+.contact-info {
+    background-color: #782121;
+    border-radius: 5px;
+    padding: 5px 0;
+}
+
+.contact-info > span:first-child {
+    display: none;
+}
+
+.contact-info > span:nth-child(n+2) {
+    padding: 0 10px;
+    border-left: white solid 1px;
 }
