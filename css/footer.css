@@ -4,6 +4,10 @@
     color: black;
 }
 
+.footer-panel {
+    width: 100%;
+}
+
 footer .img-logo {
 	max-height: 120px;
 	max-width: 250px !important;
