@@ -9,6 +9,7 @@ h2.block-title {
 
 article.node-news {
     border-bottom: solid 2px #772121 !important;
+    width: 100%;
 }
 
 article.node-news .node-title {
@@ -25,6 +26,13 @@ a.node-readmore {
     text-align: right;
     display: block;
     font-size: medium !important;
+}
+
+a.more-link {
+    font-size: x-large;
+    text-align: center;
+    width: 100%;
+    padding: 20px 0;
 }
 
 .field-name-field-news-date {

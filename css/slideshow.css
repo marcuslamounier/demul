@@ -1,3 +1,11 @@
 .region.region-content-top {
 	padding: 20px 0;
 }
+
+.caption.slide-copy a {
+    color: #782121 !important;
+}
+
+#layout_16_9_side .slide {
+	background-color: #CECECE;
+}
