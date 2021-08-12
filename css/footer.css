@@ -13,10 +13,19 @@ footer .img-logo {
 	max-width: 250px !important;
 }
 
+footer .footer-panel {
+    display: flex;
+}
+
+footer .logos {
+    display: flex;
+}
+
 footer .logos-1 {
     border-right: 1px solid black;
 }
 
 footer .logos-2 {
     border-left: 1px solid black;
+    padding-left: 10px;
 }
