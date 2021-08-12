@@ -1,8 +1,10 @@
 .fast-link {
     height: 50px;
     border-radius: 5px;
-    border: #782121 solid 1px;
+    border: #782121 solid 2px;
     background-color: #782121;
+    display: flex;
+    align-items: center;
 }
 
 .fast-link-icon {
@@ -12,7 +14,17 @@
     background-color: white;
 }
 
+.fast-link-icon img {
+    max-width: 40px !important;
+    max-height: 40px !important;
+    display: block;
+    margin: auto;
+}
+
 .fast-link-ref {
     padding: 5px 10px;
     text-transform: uppercase;
+    color: white;
+    font-size: large;
+    text-decoration: none !important;
 }
