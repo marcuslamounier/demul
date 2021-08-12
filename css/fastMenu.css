@@ -6,9 +6,10 @@
     margin: 0 5px;
 }
 
-a.fast-menu-url:hover {
+.fast-menu > div:hover, .fast-menu > div a:hover {
     background-color: #CECECE;
-    color: black;
+    transition: 0.3s;
+    color: black !important;
 }
 
 .fast-link {
