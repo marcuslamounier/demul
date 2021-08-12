@@ -8,19 +8,12 @@
 
 .open-submenu::after {
     color: white;
-}
+}qui*/
 
-ul.nice-menu li.menuparent:hover, ul.nice-menu li.menuparent:active {
-    background-color: white !important;
-    color: black;
-}
 
-ul.nice-menu li.menuparent:active {
-    font-weight: 600;
-}
-
-ul.nice-menu li.menuparent ul li {
+ul.nice-menu li.menuparent ul li, ul.nice-menu ul li {
     background-color: #FF5A5F !important;
+    width: 100%;
 }
 
 ul.nice-menu li.menuparent ul li:hover {
