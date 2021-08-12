@@ -10,8 +10,21 @@
     color: white;
 }
 
+ul.nice-menu li.menuparent:hover, ul.nice-menu li.menuparent:active {
+    background-color: white !important;
+    color: black;
+}
+
+ul.nice-menu li.menuparent:active {
+    font-weight: 600;
+}
+
 ul.nice-menu li.menuparent ul li {
     background-color: #FF5A5F !important;
+}
+
+ul.nice-menu li.menuparent ul li:hover {
+    background-color: #782121 !important;
 }
 
 ul.nice-menu li.menuparent ul li a {
