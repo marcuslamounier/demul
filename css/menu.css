@@ -1,0 +1,22 @@
+#menu-bar, #menu-bar #block-os-primary-menu {
+    background-color: #782121;
+}
+
+.open-submenu {
+    background: none;
+}
+
+.open-submenu::after {
+    color: white;
+}
+
+ul.nice-menu li.menuparent ul li {
+    background-color: #FF5A5F !important;
+}
+
+ul.nice-menu li.menuparent ul li a {
+    color: black !important;
+    text-transform: inherit !important;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+}
