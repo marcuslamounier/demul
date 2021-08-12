@@ -6,13 +6,19 @@
 #header {
 	background-color: white !important;
 	color: black !important;
+	padding: 10px 20px;
+}
+
+header .img-logo {
+	max-height: 120px;
+	max-width: 250px;
 }
 
 /* @media screen {
 	
 } */
 
-.region.region-header-second {
+/* .region.region-header-second {
 	width: 30vw;
 }
 .region.region-header-third {
@@ -23,10 +29,10 @@
 	#header h1 {
 		font-size: 20px;
 	}
-	/* .region.region-header-second {
+	.region.region-header-second {
 		width: 30vw;
 	}
 	.region.region-header-third {
 		width: 70vw;
-	} */
-}
+	}
+} */
