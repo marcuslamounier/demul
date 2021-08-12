@@ -16,6 +16,15 @@ ul.nice-menu li.menuparent ul li, ul.nice-menu ul li {
     width: 100%;
 }
 
+ul.nice-menu li.menuparent ul li:active, ul.nice-menu li.menuparent ul li:hover {
+    background-color: white !important;
+    color: black !important;
+}
+
+ul.nice-menu li.menuparent ul li:active {
+    font-weight: 600 !important;
+}
+
 ul.nice-menu li.menuparent ul li:hover {
     background-color: #782121 !important;
 }
