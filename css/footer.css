@@ -10,6 +10,7 @@
 
 .footer-panel > div {
     border-bottom: 2px solid black;
+    padding: 10px 0;
 }
 
 footer .img-logo {
@@ -51,5 +52,18 @@ footer .logos-2 {
 }
 
 .important-links ul {
-    list-style: '>> ';
+    list-style: inside '>> ';
+}
+
+.important-links ul li {
+    padding-right: 15px;
+}
+
+.important-links ul a {
+    color: black;
+    font-weight: 500;
+}
+
+.important-links ul a:hover {
+    color: #782121;
 }
