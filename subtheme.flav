@@ -7,7 +7,7 @@
 
 name        = Style DEMUL 
 description = DEMUL_UFOP styled subtheme
-module      = collegiate
+module      = peabody
 screenshot  = screenshot.png
 
 ;----------// Stylesheets
