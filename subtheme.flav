@@ -7,7 +7,7 @@
 
 name        = Style DEMUL 
 description = DEMUL_UFOP styled subtheme
-module      = peabody
+module      = mather
 screenshot  = screenshot.png
 
 ;----------// Stylesheets
