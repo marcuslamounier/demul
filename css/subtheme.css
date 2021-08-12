@@ -29,16 +29,25 @@ header div {
 	align-self: center;
 }
 
-@media screen and (max-width: 771px) {
-	#header h1 {
+@media screen and (max-width: 770px){
+	.header-title {
 		font-size: 20px;
 	}
-	#header h2 {
+	.header-subtitle {
 		font-size: 14px;
 	}
 	header .img-logo {
 		max-height: 80px;
 		max-width: 167px;
+	}
+}
+
+@media screen and (max-width: 535px) {
+	.header-title {
+		content: 'Departamento de Museologia / UFOP';
+	}
+	.header-subtitle {
+		display: none;
 	}
 }
 
