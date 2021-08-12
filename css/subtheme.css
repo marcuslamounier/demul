@@ -1,7 +1,16 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
 @import url('http://fonts.googleapis.com/css?family=Arvo');
 
+/* breakpoint mobile 1008-1009*/
+
 #header {
 	background-color: white !important;
 	color: black !important;
+}
+
+/* @media screen {
+	
+} */
+.block-boxes-os_boxes_site_logo {
+	max-height: 100px;
 }
