@@ -13,6 +13,5 @@ screenshot  = screenshot.png
 ;----------// Stylesheets
 
 css[] = css/subtheme.css
-;css[] = css/subtheme.layout.css
 scripts[] = js/subtheme.js
 
