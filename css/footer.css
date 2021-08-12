@@ -4,8 +4,12 @@
     color: black;
 }
 
- .region-footer-bottom, .footer-panel {
+.region-footer-bottom, .footer-panel {
     width: 100%;
+}
+
+.footer-panel > div {
+    border-bottom: 2px solid black;
 }
 
 footer .img-logo {
@@ -40,4 +44,12 @@ footer .logos-2 {
 
 .address-info {
     text-align: center;
+}
+
+.important-links {
+    width: 100%;
+}
+
+.important-links ul {
+    list-style: '>> ';
 }
