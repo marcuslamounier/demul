@@ -43,8 +43,11 @@ header div {
 }
 
 @media screen and (max-width: 535px) {
+	#header-title {
+		visibility: hidden;
+	}
 	#header-title::after {
-		content: ' / UFOP';
+		content: 'DEMUL / UFOP';
 	}
 	#header-subtitle {
 		display: none;
