@@ -17,7 +17,7 @@ css[] = css/header.css
 css[] = css/slideshow.css
 css[] = css/menu.css
 css[] = css/footer.css
-css[] = css/fastLinks.css
+css[] = css/fastMenu.css
 
 ;----------// Scripts
 ;scripts[] = js/subtheme.js

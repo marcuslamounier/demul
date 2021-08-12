@@ -6,6 +6,11 @@
     color: #782121 !important;
 }
 
-#layout_16_9_side .slide {
-	background-color: #CECECE;
+#layout_16_9_side .slide, #layout_16_9_side .slide-copy  {
+	background-color: #CECECE !important;
+}
+
+.slide ul.slidecontrol {
+	display: flex;
+	place-content: center;
 }

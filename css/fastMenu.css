@@ -1,0 +1,16 @@
+.fast-link {
+    height: 50px;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #782121 solid 1px;
+    background-color: #CECECE;
+}
+
+.fast-link-icon {
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.fast-link-ref {
+    padding: 0 5px;
+}
