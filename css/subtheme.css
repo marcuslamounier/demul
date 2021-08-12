@@ -11,7 +11,22 @@
 /* @media screen {
 	
 } */
-.block-boxes-os_boxes_site_logo img  {
-	max-height: 100px;
-	max-width: 202px;
+
+.region.region-header-second {
+	width: 30vw;
+}
+.region.region-header-third {
+	width: 70vw;
+}
+
+@media screen and (max-width: 600px) {
+	#header h1 {
+		font-size: 20px;
+	}
+	/* .region.region-header-second {
+		width: 30vw;
+	}
+	.region.region-header-third {
+		width: 70vw;
+	} */
 }
