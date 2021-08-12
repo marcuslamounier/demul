@@ -13,8 +13,9 @@ footer .img-logo {
 	max-width: 250px !important;
 }
 
-footer .footer-panel {
+footer .footer-panel, .main-info {
     display: flex;
+    place-content: center;
 }
 
 footer .logos {
@@ -28,4 +29,8 @@ footer .logos-1 {
 footer .logos-2 {
     border-left: 1px solid black;
     padding-left: 10px;
+}
+
+.address-info {
+    text-align: right;
 }
