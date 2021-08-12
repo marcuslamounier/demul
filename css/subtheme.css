@@ -30,10 +30,10 @@ header div {
 }
 
 @media screen and (max-width: 770px){
-	.header-title {
+	#header-title {
 		font-size: 20px;
 	}
-	.header-subtitle {
+	#header-subtitle {
 		font-size: 14px;
 	}
 	header .img-logo {
