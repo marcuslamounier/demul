@@ -43,10 +43,10 @@ header div {
 }
 
 @media screen and (max-width: 535px) {
-	.header-title {
+	#header-title::after {
 		content: 'Departamento de Museologia / UFOP';
 	}
-	.header-subtitle {
+	#header-subtitle {
 		display: none;
 	}
 }
