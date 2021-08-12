@@ -22,11 +22,15 @@
 
 header .img-logo {
 	max-height: 120px;
-	max-width: 250px;
+	max-width: 250px !important;
 }
 
 header div {
 	align-self: center;
+}
+
+#header-title {
+	font-weight: 700;
 }
 
 @media screen and (max-width: 770px){
@@ -38,23 +42,23 @@ header div {
 	}
 	header .img-logo {
 		max-height: 80px;
-		max-width: 167px;
+		max-width: 167px !important;
 	}
 }
 
 @media screen and (max-width: 535px) {
-	#header-title {
-		visibility: hidden;
-	}
 	#header-title::after {
-		content: 'DEMUL / UFOP';
+		content: ' / UFOP';
+	}
+	#header-title {
+		font-size: 16px;
 	}
 	#header-subtitle {
 		display: none;
 	}
 	header .img-logo {
 		max-height: 60px;
-		max-width: 125px;
+		max-width: 125px !important;
 	}
 }
 
