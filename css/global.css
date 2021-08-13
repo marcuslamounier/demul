@@ -43,3 +43,7 @@ span.date-display-single {
     color: black;
     font-style: italic;
 }
+
+a, a:visited, a:hover {
+    text-decoration: none !important;
+}
