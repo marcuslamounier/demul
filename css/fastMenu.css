@@ -1,9 +1,12 @@
 .fast-menu {
-    display: flex;
+    display: inline-block;
+    max-width: 100%;
 }
 
-.fast-menu > * {
-    margin: 0 5px;
+@media screen and (max-width: 700px) {
+    .fast-menu {
+        display: contents;
+    }
 }
 
 .fast-link {
@@ -11,7 +14,7 @@
     border-radius: 10px;
     border: #782121 solid 2px;
     background-color: #782121;
-    display: flex;
+    display: inline-flex;
     align-items: center;
     transition: .3s;
 }
