@@ -2,18 +2,12 @@
     display: flex;
 }
 
-.fast-menu > div {
+.fast-menu > * {
     margin: 0 5px;
 }
 
-.fast-menu > div:hover, .fast-menu > div a:hover {
-    background-color: #CECECE;
-    transition: 0.3s;
-    color: black !important;
-}
-
 .fast-link {
-    height: 50px;
+    min-height: 50px;
     border-radius: 10px;
     border: #782121 solid 2px;
     background-color: #782121;
@@ -21,18 +15,17 @@
     align-items: center;
 }
 
-
 .fast-link-icon {
     max-width: 50px;
     max-height: 50px;
-    padding: 5px;
+    padding: 7px;
     background-color: white;
     border-radius: 10px;
 }
 
 .fast-link-icon img {
-    max-width: 40px !important;
-    max-height: 40px !important;
+    max-width: 36px !important;
+    max-height: 36px !important;
     display: block;
     margin: auto;
 }
