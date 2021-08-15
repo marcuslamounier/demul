@@ -50,11 +50,15 @@ footer .logos-2 {
     border-left: black solid 1px;
 }
 
-.important-links {
+.important-links, .important-links-title, .important-links-icons {
     width: 100%;
 }
 
-.important-links a:nth-child(n+2) {
+.important-links-icons img {
+    max-height: 70px;
+}
+
+/* .important-links a:nth-child(n+2) {
     color: black !important;
     padding: 0 10px;
     font-weight: 600;
@@ -64,4 +68,4 @@ footer .logos-2 {
 
 .important-links a:hover {
     color: #782121 !important;
-}
+} */
