@@ -77,6 +77,5 @@ img.gray-scale:hover {
 }
 
 .place-center {
-    display: flex;
     place-content: center;
 }

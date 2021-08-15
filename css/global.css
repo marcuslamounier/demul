@@ -52,3 +52,11 @@ span.date-display-single {
 a, a:visited, a:hover {
     text-decoration: none !important;
 }
+
+.place-center {
+    place-content: center;
+}
+
+.w-100 {
+    width: 100%;
+}
