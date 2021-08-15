@@ -53,8 +53,8 @@ a, a:visited, a:hover {
     text-decoration: none !important;
 }
 
-.place-center {
-    place-content: center;
+.txt-center {
+    text-align: center;
 }
 
 .w-100 {

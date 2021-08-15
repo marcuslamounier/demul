@@ -50,10 +50,6 @@ footer .logos-2 {
     border-left: black solid 1px;
 }
 
-.w-100 {
-    width: 100%;
-}
-
 .important-links-icons {
     width: 100%;
     display: inline-block;
@@ -74,8 +70,4 @@ img.gray-scale {
 img.gray-scale:hover {
     filter: none;
     transition: 0.2s;
-}
-
-.place-center {
-    place-content: center;
 }
