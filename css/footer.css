@@ -58,6 +58,16 @@ footer .logos-2 {
     max-height: 70px;
 }
 
+img.gray-scale {
+    filter: grayscale(100%);
+    transition: 0.3s;
+}
+
+img.gray-scale:hover {
+    filter: none;
+    transition: 0.3s;
+}
+
 /* .important-links a:nth-child(n+2) {
     color: black !important;
     padding: 0 10px;
