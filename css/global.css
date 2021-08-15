@@ -23,6 +23,10 @@ article.node-news .node-content > * {
     padding: 5px 0;
 }
 
+.front .block-boxes-os_sv_list_box .node {
+    margin: 0;
+}
+
 a.node-readmore {
     text-align: right;
     display: block;

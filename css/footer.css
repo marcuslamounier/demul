@@ -26,7 +26,7 @@ footer .logos {
     justify-content: center;
 }
 
-footer .logos-1 {
+footer .logos-1, footer .contact-info-1 {
     border-right: 1px solid black;
 }
 
@@ -41,12 +41,12 @@ footer .logos-2 {
     font-size: 12pt;
 }
 
-.contact-info > span {
+.contact-info-1 > span {
     padding: 0 10px;
     min-width: 300px;
 }
 
-.contact-info > span:nth-child(n+3) {
+.contact-info-1 > span:nth-child(n+3) {
     border-left: black solid 1px;
 }
 
