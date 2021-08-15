@@ -50,22 +50,30 @@ footer .logos-2 {
     border-left: black solid 1px;
 }
 
-.important-links, .important-links-title, .important-links-icons {
+.important-links, .important-links-title {
     width: 100%;
 }
 
+.important-links-icons {
+    width: 100%;
+    display: inline-block;
+    padding: 10px 0;
+    text-align-last: center;
+}
+
 .important-links-icons img {
-    max-height: 70px;
+    max-height: 50px;
+    padding: 10px;
 }
 
 img.gray-scale {
     filter: grayscale(100%);
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 img.gray-scale:hover {
     filter: none;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 /* .important-links a:nth-child(n+2) {
