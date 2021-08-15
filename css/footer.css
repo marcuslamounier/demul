@@ -50,6 +50,20 @@ footer .logos-2 {
     border-left: black solid 1px;
 }
 
+.address-info {
+    display: inline-flex;
+    width: 100%;
+    align-items: center;
+}
+
+.address-info-1 {
+    padding-right: 15px;
+}
+
+.address-info-2 {
+    margin: auto;
+}
+
 .important-links, .important-links-title {
     width: 100%;
 }
