@@ -60,3 +60,11 @@ a, a:visited, a:hover {
 .w-100 {
     width: 100%;
 }
+
+.d-flex {
+    display: flex;
+}
+
+.color-black {
+    color: black;
+}

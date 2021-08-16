@@ -5,13 +5,12 @@
 
 header {
     border-bottom: #782121 solid 5px;
+	background-color: white !important;
 }
 
-.header {
-	background-color: white !important;
-	color: black !important;
-	width: 100%;
-	display: flex;
+.header-panel > * {
+    place-self: center;
+    margin: auto;
 }
 
 .header-panel-logo {
@@ -19,18 +18,9 @@ header {
     padding: 10px;
 }
 
-.header-panel-info {
-	text-align: center;
-    width: -webkit-fill-available;
-}
-
-.header .img-logo {
+.header-panel .img-logo {
 	max-height: 120px;
 	max-width: 250px !important;
-}
-
-.header div {
-	align-self: center;
 }
 
 @media screen and (max-width: 770px){
@@ -40,7 +30,7 @@ header {
 	#header-subtitle {
 		font-size: 14px;
 	}
-	header .img-logo {
+	.header-panel-logo .img-logo {
 		max-height: 80px;
 		max-width: 167px !important;
 	}
@@ -56,7 +46,7 @@ header {
 	#header-subtitle {
 		display: none;
 	}
-	header .img-logo {
+	.header-panel-logo .img-logo {
 		max-height: 60px;
 		max-width: 125px !important;
 	}
