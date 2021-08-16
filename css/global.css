@@ -11,6 +11,7 @@ h2.block-title {
 article.node-news {
     border-bottom: solid 2px #772121 !important;
     width: 100%;
+    padding: 20px 0;
 }
 
 article.node-news .node-title {
