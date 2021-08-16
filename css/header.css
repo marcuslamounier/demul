@@ -3,7 +3,11 @@
 
 /* breakpoint mobile 1008-1009*/
 
-#header {
+header {
+    border-bottom: #782121 solid 10px;
+}
+
+.header {
 	background-color: white !important;
 	color: black !important;
 	width: 100%;
