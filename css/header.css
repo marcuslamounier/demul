@@ -4,7 +4,7 @@
 /* breakpoint mobile 1008-1009*/
 
 header {
-    border-bottom: #782121 solid 10px;
+    border-bottom: #782121 solid 5px;
 }
 
 .header {
@@ -24,17 +24,13 @@ header {
     width: -webkit-fill-available;
 }
 
-header .img-logo {
+.header .img-logo {
 	max-height: 120px;
 	max-width: 250px !important;
 }
 
-header div {
+.header div {
 	align-self: center;
-}
-
-#header-title {
-	font-weight: 700;
 }
 
 @media screen and (max-width: 770px){
