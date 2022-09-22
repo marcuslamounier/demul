@@ -82,7 +82,7 @@
 }
 
 .fast-link-icon>img {
-    height: inherit;
+    height: inherit !important;
     display: block;
     margin: auto;
 }
