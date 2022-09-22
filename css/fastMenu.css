@@ -22,6 +22,13 @@
     font-size: small;
 }
 
+@media screen and (max-width: 1890px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(6, auto);
+    }
+}
+
 @media screen and (max-width: 1620px) {
     .fast-menu {
         display: grid;
