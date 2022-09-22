@@ -1,5 +1,5 @@
 #menu-bar, #menu-bar #block-os-primary-menu {
-    background-color: #782121;
+    background-color: #AA0331;
 }
 
 #menu-bar {
@@ -20,7 +20,7 @@ ul.nice-menu li.menuparent ul li, ul.nice-menu ul li {
 }
 
 ul.nice-menu li.menuparent ul li:hover {
-    background-color: #782121 !important;
+    background-color: #AA0331 !important;
 }
 
 ul.nice-menu li.menuparent ul li a {

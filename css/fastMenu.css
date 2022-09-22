@@ -1,53 +1,93 @@
-.fast-menu {
-    display: inline-block;
+.fast-menu, .fast-link {
     width: 100%;
 }
 
-@media screen and (max-width: 700px) {
-    .fast-link {
-        width: 100%;
-    }
+.fast-menu a {
+    text-decoration: none !important;
+}
+
+.fast-menu-item {
+    margin: 0 2px;
+    padding: 0 2px;
 }
 
 .fast-link {
     min-height: 50px;
-    border-radius: 10px;
-    border: #782121 solid 2px;
-    background-color: #782121;
+    border: #AA0331 solid 2px;
+    background-color: #AA0331;
     display: inline-flex;
     align-items: center;
     transition: .3s;
+    color: white;
+    font-size: small;
+}
+
+@media screen and (max-width: 1620px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+    }
+}
+
+@media screen and (max-width: 1350px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .fast-menu {
+        display: inline-block;
+        grid-template-columns: none;
+    }
+    .fast-link {
+        width: 100%;
+        font-size: medium;
+    }
+}
+
+.fast-link>span {
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 5px 10px;
 }
 
 .fast-link-icon {
-    max-width: 50px;
-    max-height: 50px;
+    width: 40px;
+    height: 40px;
     padding: 7px;
     background-color: white;
-    border-radius: 10px;
 }
 
-.fast-link-icon img {
-    max-width: 36px !important;
-    max-height: 36px !important;
+.fast-link-icon>img {
+    height: inherit;
     display: block;
     margin: auto;
 }
 
-.fast-link-ref, .fast-link-ref a {
-    padding: 5px 10px;
-    text-transform: uppercase;
-    color: white;
-    font-size: small;
-    text-decoration: none !important;
-}
 
-.fast-link:hover, .fast-link-ref:hover {
-    background-color: #CECECE;
-    color: black !important;
+.fast-link:hover {
+    background-color: white;
+    color: #AA0331;
     transition: .3s;
 }
 
-#columns .block-boxes-os_boxes_html a, #columns .field-name-body a {
+#columns .block-boxes-os_boxes_html a,
+#columns .field-name-body a {
     text-decoration: none !important;
 }
