@@ -1,4 +1,4 @@
-.fast-menu, .fast-link {
+.fast-menu {
     width: 100%;
 }
 
@@ -12,6 +12,7 @@
 }
 
 .fast-link {
+    width: 100%;
     min-height: 50px;
     border: #AA0331 solid 2px;
     background-color: #AA0331;
@@ -22,41 +23,6 @@
     font-size: small;
 }
 
-@media screen and (max-width: 1890px) {
-    .fast-menu {
-        display: grid;
-        grid-template-columns: repeat(6, auto);
-    }
-}
-
-@media screen and (max-width: 1620px) {
-    .fast-menu {
-        display: grid;
-        grid-template-columns: repeat(5, auto);
-    }
-}
-
-@media screen and (max-width: 1350px) {
-    .fast-menu {
-        display: grid;
-        grid-template-columns: repeat(4, auto);
-    }
-}
-
-@media screen and (max-width: 1080px) {
-    .fast-menu {
-        display: grid;
-        grid-template-columns: repeat(3, auto);
-    }
-}
-
-@media screen and (max-width: 810px) {
-    .fast-menu {
-        display: grid;
-        grid-template-columns: repeat(2, auto);
-    }
-}
-
 @media screen and (max-width: 540px) {
     .fast-menu {
         display: inline-block;
@@ -65,6 +31,27 @@
     .fast-link {
         width: 100%;
         font-size: medium;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+    }
+}
+
+@media screen and (min-width: 810px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+    }
+}
+
+@media screen and (min-width: 981px) {
+    .fast-menu {
+        display: grid;
+        grid-template-columns: repeat(5, auto);
     }
 }
 
