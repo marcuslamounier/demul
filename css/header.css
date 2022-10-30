@@ -1,55 +1,59 @@
 /* To utilize a google font, place the font url's here at the top of this css file as seen here*/
-@import url('http://fonts.googleapis.com/css?family=Arvo');
+@import url("http://fonts.googleapis.com/css?family=Arvo");
 
 /* breakpoint mobile 1008-1009*/
 
 header#header {
-    border-bottom: #AA0331 solid 5px;
-	background-color: white !important;
+  border-bottom: #aa0331 solid 5px;
+  background-color: white !important;
 }
 
 .header-panel > * {
-    place-self: center;
-    margin: auto;
+  place-self: center;
+  margin: auto;
+}
+
+.header-panel h2 {
+  font-size: 1.1rem;
 }
 
 .header-panel-logo {
-	align-content: center;
-    padding: 10px;
+  align-content: center;
+  padding: 10px;
 }
 
 .header-panel .img-logo {
-	max-height: 120px;
-	max-width: 250px !important;
+  max-height: 120px;
+  max-width: 250px !important;
 }
 
-@media screen and (max-width: 770px){
-	#header-title {
-		font-size: 20px;
-	}
-	#header-subtitle {
-		font-size: 14px;
-	}
-	.header-panel-logo .img-logo {
-		max-height: 80px;
-		max-width: 167px !important;
-	}
+@media screen and (max-width: 770px) {
+  #header-title {
+    font-size: 20px;
+  }
+  #header-subtitle {
+    font-size: 14px;
+  }
+  .header-panel-logo .img-logo {
+    max-height: 80px;
+    max-width: 167px !important;
+  }
 }
 
 @media screen and (max-width: 535px) {
-	#header-title::after {
-		content: ' / UFOP';
-	}
-	#header-title {
-		font-size: 16px;
-	}
-	#header-subtitle {
-		display: none;
-	}
-	.header-panel-logo .img-logo {
-		max-height: 60px;
-		max-width: 125px !important;
-	}
+  #header-title::after {
+    content: " / UFOP";
+  }
+  #header-title {
+    font-size: 16px;
+  }
+  #header-subtitle {
+    display: none;
+  }
+  .header-panel-logo .img-logo {
+    max-height: 60px;
+    max-width: 125px !important;
+  }
 }
 
 /* @media screen {
