@@ -1,0 +1,11 @@
+@media (max-width: 479px) {
+  .node-person.node-teaser {
+    text-align: center;
+  }
+  .field-name-field-person-photo {
+    display: contents;
+  }
+  .field-name-field-email {
+    display: contents;
+  }
+}
