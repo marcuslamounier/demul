@@ -7,7 +7,7 @@
 }
 
 .fast-menu-item {
-    margin: 0 2px;
+    margin: 2px;
     padding: 0 2px;
 }
 
@@ -21,6 +21,15 @@
     transition: .3s;
     color: white;
     font-size: small;
+}
+
+.fast-link a {
+    display: flex;
+    flex: 1 1 auto;
+    height: 40px;
+    padding: 7px 0;
+    align-items: center;
+    color: inherit;
 }
 
 @media screen and (max-width: 540px) {
@@ -55,14 +64,12 @@
     }
 }
 
-.fast-link>span {
+.fast-link span {
     font-weight: bolder;
     text-transform: uppercase;
-    padding: 5px 10px;
 }
 
 .fast-link-icon {
-    width: 40px;
     height: 40px;
     padding: 7px;
     background-color: white;
@@ -70,8 +77,6 @@
 
 .fast-link-icon>img {
     height: inherit !important;
-    display: block;
-    margin: auto;
 }
 
 
@@ -81,7 +86,16 @@
     transition: .3s;
 }
 
+.fast-link:visited {
+    color: inherit;
+    transition: .3s;
+}
+
 #columns .block-boxes-os_boxes_html a,
 #columns .field-name-body a {
     text-decoration: none !important;
+}
+
+.fast-item a:visited {
+    color: inherit;
 }
